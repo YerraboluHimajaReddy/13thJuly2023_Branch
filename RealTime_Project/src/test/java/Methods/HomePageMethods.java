@@ -17,6 +17,7 @@ public class HomePageMethods {
 	
 	public void clickAdmin() {
 
+		driver.findElement(hp.admin_Button).click();		
 		driver.findElement(hp.admin_Button).click();
 	}
 	
